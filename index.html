@@ -1,113 +1,78 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Custom Startup</title>
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
-      rel="stylesheet">
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
     <section id="section1">
-        <div class="container" >
-            <p id="greeting"></p>
-            <div class="headerSearch">
-                <input type="text" class="searchBar1" placeholder="Search the Web">
-                <button class="searchButton">Search</button>
-            </div>
+      <div class="container">
+        <p id="greeting"></p>
+        <div class="headerSearch">
+          <input type="text" class="searchBar1" placeholder="Search the Web" />
+          <button class="searchButton">Search</button>
         </div>
+      </div>
     </section>
 
-    <section class="outerBox">
-        <div class="container">
-            <div class="outerBox1">
-                <div class="box">
-                    <h1 class = 'title'>
-                        <span class="icon">
-                            <svg class="svg-inline--fa fa-video fa-w-18 fa-xs" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="video" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" data-fa-i2svg=""><path fill="currentColor" d="M336.2 64H47.8C21.4 64 0 85.4 0 111.8v288.4C0 426.6 21.4 448 47.8 448h288.4c26.4 0 47.8-21.4 47.8-47.8V111.8c0-26.4-21.4-47.8-47.8-47.8zm189.4 37.7L416 177.3v157.4l109.6 75.5c21.2 14.6 50.4-.3 50.4-25.8V127.5c0-25.4-29.1-40.4-50.4-25.8z"></path></svg>
-                        </span>
-                        Media
-                    </h1>
-                    <ul>
-                
-                    <li class="li">
-                        <a href="https://www.linkedin.com/" target="_blank">Linkedin</a>
-                    </li>
-
-                    <li class="li">
-                            <a href="https://www.youtube.com/" target="_blank">Youtube</a>
-                        </li>
-
-                    <li class="li">
-                        <a href="https://www.linkedin.com/" target="_blank">Github</a>
-                    </li>
-                    
-                    </ul>
-                </div>
-            </div>
-
-            <div class="outerBox2">
-                <div class="box">
-                    <h1 class = 'title'>
-                        <span class="material-icons-outlined">
-                            Code
-                        </span>
-                    </h1>
-                    <ul>
-                        <li>
-                            <a href="https://www.hackerrank.com/auth/login">Hackerrank</a>
-                        </li>
-                        <li>
-                            <a href="https://leetcode.com/accounts/login/">Leetcode</a>
-                        </li>
-                        <li>
-                            <a href="https://nados.io/community">Nados</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </div>
+    <section class="cards">
+      <div class="card">
+        <h1>Media</h1>
+        <ul>
+          <li>Linkedin</li>
+          <li>Youtube</li>
+          <li>Github</li>
+        </ul>
+        <h1>DSA</h1>
+        <ul>
+          <li>Hackerrank</li>
+          <li>Leetcode</li>
+          <li>Nados</li>
+        </ul>
+      </div>
     </section>
 
     <section>
-        <div class="container">
-            <div class="todoList">
-                <div class="tabs">
-                    <ul>
-                        <li class="tab1 active">
-                            <a href="#">Pending</a>
-                        </li>
-                        <li class="tab2 inactive">
-                            <a href="#">Finished</a>
-                        </li>
-                    </ul>
-                </div> 
-                <div class="headerSearch">
-                    <input type="text" class="searchBar2" placeholder="Add an item">
-                    <button class="add">Add</button>
-                </div>
-                <table>
-                    <th>
-                        <tr class = 'row'>
-                            <td>Item</td>
-                            <td>Actions</td>
-                        </tr>
-                    </th>
-                <tbody>
-                    <tr>
-                        <td>Nothing here, move on. </td>
-                    </tr>
-                </tbody>
-                </table>
-            </div>
+      <div class="container">
+        <div class="todoList">
+          <div class="tabs">
+            <ul>
+              <li class="tab1 active">
+                <a href="#">Pending</a>
+              </li>
+              <li class="tab2 inactive">
+                <a href="#">Finished</a>
+              </li>
+            </ul>
+          </div>
+          <div class="headerSearch">
+            <input type="text" class="searchBar2" placeholder="Add an item" />
+            <button class="add">Add</button>
+          </div>
+          <table>
+            <th>
+              <tr class="row">
+                <td>Item</td>
+                <td>Actions</td>
+              </tr>
+            </th>
+            <tbody>
+              <tr>
+                <td>Nothing here, move on.</td>
+              </tr>
+            </tbody>
+          </table>
         </div>
+      </div>
     </section>
 
-    <script src = 'script.js'></script>
-</body>
+    <script src="script.js"></script>
+  </body>
 </html>
-
-

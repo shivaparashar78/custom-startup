@@ -1,126 +1,128 @@
-body{
-    background-color:lightgray;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-}
-div.container{
-    padding: .5rem;
-    margin: .1rem;
-    border: .3rem solid black;
-    font-size: 1.2rem;
-}
+@import "node_modules/normalize.css/normalize.css";
 
-.headerSearch{
-    margin: auto;
-    display: flex;
-    padding:.5rem;
+body {
+  background-color: lightgray;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+div.container {
+  padding: 0.5rem;
+  margin: 0.1rem;
+  border: 0.3rem solid black;
+  font-size: 1.2rem;
 }
 
-.searchBar1{
-    width: 20rem;
-    height: 2rem;
-    border-radius: .3rem;
-    border: none;
-    font-size: 1rem;
-    background-color:white;
+.headerSearch {
+  display: flex;
 }
 
-.searchBar2{
-    width: 40rem;
-    height: 2rem;
-    border-radius: .3rem;
-    border: none;
-    font-size: 1rem;
-    background-color:white;
+.searchBar1 {
+  width: 20rem;
+  height: 2rem;
+  border-radius: 0.3rem;
+  border: none;
+  font-size: 1rem;
+  background-color: white;
 }
 
-.searchButton , .add{
-    width: 5rem;
-    height: 1.8rem;
-    border-radius: .4rem;
-    border: .1rem solid lightgrey;
-    font-size: 1rem;
+.searchBar2 {
+  width: 40rem;
+  height: 2rem;
+  border-radius: 0.3rem;
+  border: none;
+  font-size: 1rem;
+  background-color: white;
+  margin-bottom: 0.75rem;
 }
 
-
-.box{
-    display: inline-block;
-    border: 1px SOLID black;
-    width: 20rem;
+.searchButton,
+.add {
+  width: 5rem;
+  height: 1.8rem;
+  border-radius: 0.4rem;
+  border: 0.1rem solid lightgrey;
+  font-size: 1rem;
 }
 
-
-.outerBox1 , .outerBox2 , .outerBox3{
-    display: inline;
-    align-items: center;
-    text-align: center;
+.box {
+  display: inline-block;
+  border: 1px SOLID black;
+  width: 20rem;
 }
 
-a{
-    text-decoration: none;
+a {
+  text-decoration: none;
 }
-ul{
-    list-style-type: none;
-}
-
-
-
-.tab1 , .tab2 {
-    display: inline-block;
-    border: .1rem solid gold;
-    padding: 1rem;
+ul {
+  list-style-type: none;
 }
 
-div.tabs{
-    border: .2rem solid greenyellow;
+.tab1,
+.tab2 {
+  display: inline-block;
+  border: 0.1rem solid gold;
+  padding: 1rem;
 }
 
-table{
-    border :.2rem solid blue;
-    justify-content: center;
-    align-items: center;
-    width: 30rem;
-}
-tbody{
-    border: .2rem solid red;
+div.tabs {
+  border: 0.2rem solid greenyellow;
+  margin-bottom: 1rem;
 }
 
-.todoList{
-    display: flex;
-    flex-direction: column;
+.tabs ul {
+  margin: 0;
+  padding: 0;
 }
 
+table {
+  border: 0.2rem solid blue;
+  justify-content: center;
+  align-items: center;
+  width: 30rem;
+}
+tbody {
+  border: 0.2rem solid red;
+}
 
+.todoList {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  margin: 0 auto;
+}
 
 svg:not(:root).svg-inline--fa {
-    overflow: visible;
+  overflow: visible;
 }
 
 .svg-inline--fa.fa-w-18 {
-    width: 1.125em;
+  width: 1.125em;
 }
 
 .fa-xs {
-    font-size: .75em;
+  font-size: 0.75em;
 }
 
 .svg-inline--fa {
-    display: inline-block;
-    font-size: inherit;
-    height: 1em;
-    overflow: visible;
-    vertical-align: -0.125em;
+  display: inline-block;
+  font-size: inherit;
+  height: 1em;
+  overflow: visible;
+  vertical-align: -0.125em;
 }
 
 svg:not(:root) {
-    overflow: hidden;
+  overflow: hidden;
 }
 
-*, *::before, *::after {
-    box-sizing: inherit;
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
 }
 
-@media(max-width:998px){ /*aapke device ka size hi yeh hai */
-    html{
-        font-size: 55%;
-    }   
+@media (max-width: 998px) {
+  /*aapke device ka size hi yeh hai */
+  html {
+    font-size: 55%;
+  }
 }
