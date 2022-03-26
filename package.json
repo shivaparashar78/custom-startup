@@ -1,0 +1,29 @@
+{
+  "name": "custom_startup",
+  "version": "1.0.0",
+  "main": "script.js",
+  "scripts": {
+    "mode": "online",
+    "dev": "live-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shivaparashar78/custom-startup.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shivaparashar78/custom-startup/issues"
+  },
+  "homepage": "https://github.com/shivaparashar78/custom-startup#readme",
+  "keywords": [],
+  "description": "",
+  "devDependencies": {
+    "live-server": "^1.2.1"
+  },
+  "dependencies": {
+    "normalize.css": "^8.0.1",
+    "prettier": "^2.6.1",
+    "save-dev": "^0.0.1-security"
+  }
+}
