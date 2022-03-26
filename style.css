@@ -1,0 +1,125 @@
+html{
+    font-size : 100%;
+    min-width: 30px;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    text-rendering: optimizeLegibility;
+    text-size-adjust: 100%;
+}
+
+body{
+    background-color:lightgrey;
+    margin: 0.5rem;
+    padding: 0.3rem;
+    font-size: 1.3rem;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+#searchBar{
+    /* width: 20rem;
+    height: 1.8rem;
+    margin-left: 20rem;
+    border-radius: 0.5rem; */
+    padding: .5rem;
+    text-align:center;
+}
+
+#searchButton{
+    /* width: 6rem;
+    height: 1.8rem;
+    border-radius: 0.5rem; */
+}
+
+
+
+svg:not(:root).svg-inline--fa {
+    overflow: visible;
+}
+
+.svg-inline--fa.fa-w-18 {
+    width: 1.125em;
+}
+
+.fa-xs {
+    font-size: .75em;
+}
+
+.svg-inline--fa {
+    display: inline-block;
+    font-size: inherit;
+    height: 1em;
+    overflow: visible;
+    vertical-align: -0.125em;
+}
+
+svg:not(:root) {
+    overflow: hidden;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+@media(max-width:998px){ /*aapke device ka size hi yeh hai */
+    html{
+        font-size: 55%;
+    }   
+}
+
+.title{
+    width: 10rem;
+    height: 1.5rem;
+    font-size: 1rem;
+    text-align: center;
+    justify-content: center;
+    margin-left: 2rem;
+
+    border-radius: .5rem;
+    border:1px solid #8c2b24;
+    -webkit-box-shadow: 0 0 10px #bdbdbd;
+    box-shadow: 0 0 10px #bdbdbd;
+}
+
+.box{
+    height: 15rem;
+    border:1px solid #bdbdbd;
+    border-radius: .5rem;
+    box-shadow: 0 0 10px #bdbdbd;
+    flex: auto;
+    width: 15rem;
+    margin-left: .5rem;
+    margin-top: 2rem;
+    text-align: center;
+}
+
+ul{
+    list-style-type: none;
+    text-align: center;
+ }
+ a{
+    text-decoration: none;
+    text-align: center;
+ }
+
+.outerBox1 , .outerBox2 , .outerBox3{
+    float: left;
+    width: 20rem;
+}
+
+.outerBox{
+    margin-left: 20rem;
+    margin-top: 8rem;
+}
+
+#section1{
+    margin-left: 2rem;
+    position: absolute;
+}
+
+
+ div.tabs{
+    display: inline;
+    background: red;
+    background-color: red;
+}

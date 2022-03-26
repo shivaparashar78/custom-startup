@@ -1,0 +1,126 @@
+body{
+    background-color:lightgray;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+div.container{
+    padding: .5rem;
+    margin: .1rem;
+    border: .3rem solid black;
+    font-size: 1.2rem;
+}
+
+.headerSearch{
+    margin: auto;
+    display: flex;
+    padding:.5rem;
+}
+
+.searchBar1{
+    width: 20rem;
+    height: 2rem;
+    border-radius: .3rem;
+    border: none;
+    font-size: 1rem;
+    background-color:white;
+}
+
+.searchBar2{
+    width: 40rem;
+    height: 2rem;
+    border-radius: .3rem;
+    border: none;
+    font-size: 1rem;
+    background-color:white;
+}
+
+.searchButton , .add{
+    width: 5rem;
+    height: 1.8rem;
+    border-radius: .4rem;
+    border: .1rem solid lightgrey;
+    font-size: 1rem;
+}
+
+
+.box{
+    display: inline-block;
+    border: 1px SOLID black;
+    width: 20rem;
+}
+
+
+.outerBox1 , .outerBox2 , .outerBox3{
+    display: inline;
+    align-items: center;
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+}
+ul{
+    list-style-type: none;
+}
+
+
+
+.tab1 , .tab2 {
+    display: inline-block;
+    border: .1rem solid gold;
+    padding: 1rem;
+}
+
+div.tabs{
+    border: .2rem solid greenyellow;
+}
+
+table{
+    border :.2rem solid blue;
+    justify-content: center;
+    align-items: center;
+    width: 30rem;
+}
+tbody{
+    border: .2rem solid red;
+}
+
+.todoList{
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+svg:not(:root).svg-inline--fa {
+    overflow: visible;
+}
+
+.svg-inline--fa.fa-w-18 {
+    width: 1.125em;
+}
+
+.fa-xs {
+    font-size: .75em;
+}
+
+.svg-inline--fa {
+    display: inline-block;
+    font-size: inherit;
+    height: 1em;
+    overflow: visible;
+    vertical-align: -0.125em;
+}
+
+svg:not(:root) {
+    overflow: hidden;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+@media(max-width:998px){ /*aapke device ka size hi yeh hai */
+    html{
+        font-size: 55%;
+    }   
+}
